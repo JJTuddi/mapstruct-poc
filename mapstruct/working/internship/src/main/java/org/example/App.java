@@ -4,6 +4,8 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.example.data.entity.InternEntity;
 import org.example.data.entity.PaymentDetailsEntity;
+import org.mapstruct.ap.internal.model.Mapper;
+import org.mapstruct.factory.Mappers;
 
 public class App {
 

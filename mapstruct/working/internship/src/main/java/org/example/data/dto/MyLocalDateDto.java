@@ -26,4 +26,9 @@ public class MyLocalDateDto {
         day = localDate.getDayOfMonth();
     }
 
+    @Override
+    public String toString() {
+        return LocalDate.of(year, month, day).format(DATE_FORMATTER);
+    }
+
 }

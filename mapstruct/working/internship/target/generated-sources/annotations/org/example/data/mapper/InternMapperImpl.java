@@ -8,7 +8,7 @@ import org.example.data.entity.InternEntity.InternEntityBuilder;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-07-04T15:42:47+0300",
+    date = "2022-07-04T16:59:12+0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 15.0.2 (Amazon.com Inc.)"
 )
 public class InternMapperImpl implements InternMapper {
@@ -26,7 +26,6 @@ public class InternMapperImpl implements InternMapper {
         internDto.firstName( entity.getFirstName() );
         internDto.lastName( entity.getLastName() );
         internDto.username( entity.getUsername() );
-        internDto.password( entity.getPassword() );
         internDto.internshipNotebook( entity.getInternshipNotebook() );
         internDto.workingHours( entity.getWorkingHours() );
 
@@ -46,7 +45,6 @@ public class InternMapperImpl implements InternMapper {
         internEntity.firstName( dto.getFirstName() );
         internEntity.lastName( dto.getLastName() );
         internEntity.username( dto.getUsername() );
-        internEntity.password( dto.getPassword() );
         internEntity.internshipNotebook( dto.getInternshipNotebook() );
         internEntity.workingHours( dto.getWorkingHours() );
 

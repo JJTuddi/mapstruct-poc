@@ -1,13 +1,14 @@
 package org.example.data.dto;
 
 import lombok.*;
+import lombok.experimental.SuperBuilder;
 import org.example.data.entity.PaymentDetailsEntity;
 
 import java.time.LocalDate;
 
 @Getter
 @Setter
-@Builder
+@SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
 public class EmployeeDto {

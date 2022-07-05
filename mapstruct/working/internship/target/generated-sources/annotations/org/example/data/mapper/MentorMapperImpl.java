@@ -12,7 +12,7 @@ import org.example.data.entity.MentorEntity.MentorEntityBuilder;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-07-05T19:53:25+0300",
+    date = "2022-07-05T20:07:48+0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 15.0.2 (Amazon.com Inc.)"
 )
 public class MentorMapperImpl implements MentorMapper {

@@ -1,13 +1,14 @@
 package org.example.data.dto;
 
-import lombok.*;
-import org.example.data.entity.PaymentDetailsEntity;
-
-import java.time.LocalDate;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import lombok.experimental.SuperBuilder;
 
 @Getter
 @Setter
-@Builder
+@SuperBuilder
 @NoArgsConstructor
 @AllArgsConstructor
 public class EmployeeDto {
@@ -17,5 +18,6 @@ public class EmployeeDto {
     private String firstName;
     private String lastName;
     private String username;
+    private String password;
 
 }

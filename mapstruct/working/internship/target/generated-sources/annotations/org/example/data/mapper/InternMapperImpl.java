@@ -8,7 +8,7 @@ import org.example.data.entity.InternEntity.InternEntityBuilder;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-07-04T16:59:12+0300",
+    date = "2022-07-05T20:02:17+0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 15.0.2 (Amazon.com Inc.)"
 )
 public class InternMapperImpl implements InternMapper {

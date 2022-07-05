@@ -1,10 +1,10 @@
 package org.example.data.dto;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.SuperBuilder;
-import org.example.data.entity.PaymentDetailsEntity;
-
-import java.time.LocalDate;
 
 @Getter
 @Setter

@@ -2,7 +2,9 @@ package org.example.data.mapper;
 
 import org.example.data.dto.MentorDto;
 import org.example.data.entity.MentorEntity;
-import org.mapstruct.*;
+import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+import org.mapstruct.Mappings;
 
 @Mapper
 public interface MentorMapper {

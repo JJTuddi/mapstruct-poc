@@ -12,7 +12,7 @@ import org.example.data.entity.MentorEntity.MentorEntityBuilder;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-07-10T16:28:22+0300",
+    date = "2022-07-10T16:51:53+0300",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 15.0.2 (Amazon.com Inc.)"
 )
 public class MentorMapperImpl implements MentorMapper {
@@ -31,7 +31,6 @@ public class MentorMapperImpl implements MentorMapper {
         mentorDto.firstName( entity.getFirstName() );
         mentorDto.lastName( entity.getLastName() );
         mentorDto.username( entity.getUsername() );
-        mentorDto.internshipRepo( entity.getInternshipRepo() );
 
         return mentorDto.build();
     }
@@ -50,7 +49,6 @@ public class MentorMapperImpl implements MentorMapper {
         mentorEntity.firstName( dto.getFirstName() );
         mentorEntity.lastName( dto.getLastName() );
         mentorEntity.username( dto.getUsername() );
-        mentorEntity.internshipRepo( dto.getInternshipRepo() );
 
         return mentorEntity.build();
     }
